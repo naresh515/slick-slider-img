@@ -1,7 +1,7 @@
 $('.slider-content').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 500,
     infinite: true,
     dots: true,
@@ -15,7 +15,7 @@ $('.slider-content').slick({
     },
     responsive: [
         {
-            breakpoint: 820,
+            breakpoint: 840,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
