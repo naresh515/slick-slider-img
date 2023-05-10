@@ -1,7 +1,7 @@
 $('.slider-content').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 500,
     infinite: true,
     dots: true,
